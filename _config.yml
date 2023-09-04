@@ -21,7 +21,11 @@
 title: Navio Pirata
 email: rita.cassia.barbosa.farias@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+<<<<<<< HEAD
  Ciência de Dados e Educação
+=======
+  Ciência de Dados e Educação.
+>>>>>>> e18396fabeda29e2d06b0e210a7c34e7f906a306
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://r-it-a.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
