@@ -11,7 +11,6 @@ Rita de Cassia Barbosa Farias
 
 
 
-
 Resumo
 	
 Este trabalho tem como objetivo explorar as desigualdades sociais de acesso à educação no Brasil. Serão utilizados dados das notas do Exame Nacional do Ensino Médio (Enem) antes e depois da implementação do sistema de cotas, a fim de investigar a relação entre nota, etnia, sexo e nível de formação dos pais dos estudantes. A variável preditora escolhida será a nota de matemática, devido às discrepâncias no acesso à educação neste campo no Brasil. Além disso, técnicas estatísticas serão aplicadas para avaliar a significância das diferenças nas notas dos alunos antes e depois da implementação das cotas, bem como para identificar as principais variáveis que afetam o desempenho acadêmico dos estudantes. O uso de técnicas de regressão linear também será explorado, a fim de desenvolver um modelo preditivo que possa ser usado para prever notas do Enem, e para orientar as políticas públicas de inclusão nas universidades.
