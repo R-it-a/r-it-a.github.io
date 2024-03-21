@@ -47,6 +47,9 @@ Em resumo, este trabalho utilizou dados do Enem disponibilizados pelo INEP para 
 
 ## Resultados e Discussão 
 
+![Book quantidade](r-it-a.github.io/assets/imgs/quantidade.png)
+
+
 ## Conclusão(ões) ou Considerações Finais
 
 A análise dos dados do Enem revelou desigualdades significativas nas notas em relação a fatores como raça, gênero e nível de formação dos pais, com participantes negros, pardos e indígenas tendo medianas e distribuições de notas mais baixas do que participantes brancos. As participantes femininas têm notas significativamente mais baixas do que os participantes masculinos, embora muito mais mulheres do que homens se inscrevam para o Enem. Isso sugere que há uma interseccionalidade entre as desigualdades de gênero e de raça, consoante com o que é apontado por Sueli Carneiro (1999). As conclusões ressaltam a urgência e continuidade de abordagens inclusivas nas universidades e políticas afirmativas que reconheçam e mitiguem as opressões de raça e gênero para que o passado não seja projetado no futuro de maneira injusta e violenta. Por fim, é importante ressaltar que essa é uma análise exploratória e que outras análises mais sofisticadas podem ser realizadas para investigar essas diferenças com mais profundidade.
