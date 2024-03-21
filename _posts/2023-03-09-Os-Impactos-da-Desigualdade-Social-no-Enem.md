@@ -47,7 +47,7 @@ Em resumo, este trabalho utilizou dados do Enem disponibilizados pelo INEP para 
 
 ## Resultados e Discussão 
 
-![Book quantidade](/least-github-pages/assets/imgs/quantidade.png)
+![Book quantidade](/r-it-a.github.io/assets/imgs/quantidade.png)
 
 
 ## Conclusão(ões) ou Considerações Finais
