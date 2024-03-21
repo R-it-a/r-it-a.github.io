@@ -46,6 +46,7 @@ Por fim, foi realizada a análise estatística dos resultados obtidos, utilizand
 Em resumo, este trabalho utilizou dados do Enem disponibilizados pelo INEP para avaliar a relação entre a formação acadêmica dos pais, a raça e o gênero dos estudantes e seu desempenho no exame. A partir da análise dos dados, foram identificadas possíveis disparidades que precisam ser abordadas por políticas públicas de inclusão nas universidades. Além disso, foram desenvolvidos modelos preditivos que podem ser utilizados para orientar essas políticas e melhorar a inclusão de grupos historicamente marginalizados na educação superior.
 
 ## Resultados e Discussão 
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/e1583114-4cbc-40cc-9fbb-3e408bf3c8e4)
 
 ![Book quantidade](/r-it-a.github.io/assets/imgs/quantidade.png)
 
