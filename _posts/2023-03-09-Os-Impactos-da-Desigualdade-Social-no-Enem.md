@@ -48,7 +48,37 @@ Em resumo, este trabalho utilizou dados do Enem disponibilizados pelo INEP para 
 ## Resultados e Discussão 
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/e1583114-4cbc-40cc-9fbb-3e408bf3c8e4)
 
-![Book quantidade](/r-it-a.github.io/assets/imgs/quantidade.png)
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/58ac762a-7e3e-42a8-9e94-72bbe733fe08)
+
+
+  Multiple Comparison of Means - Tukey HSD, FWER=0.05        
+===================================================================
+    group1        group2    meandiff p-adj  lower    upper   reject
+-------------------------------------------------------------------
+      amarelo        branco  35.1398   0.0  33.7452  36.5345   True
+      amarelo      indigena  -59.964   0.0 -63.0284 -56.8997   True
+      amarelo nao_declarado   7.9741   0.0   5.9863   9.9618   True
+      amarelo         pardo -23.9514   0.0   -25.34 -22.5628   True
+      amarelo         preto -36.3929   0.0 -37.8676 -34.9181   True
+       branco      indigena -95.1039   0.0 -97.8715 -92.3363   True
+       branco nao_declarado -27.1658   0.0 -28.6558 -25.6758   True
+       branco         pardo -59.0912   0.0 -59.5354  -58.647   True
+       branco         preto -71.5327   0.0 -72.1991 -70.8664   True
+     indigena nao_declarado  67.9381   0.0  64.8292   71.047   True
+     indigena         pardo  36.0127   0.0  33.2482  38.7772   True
+     indigena         preto  23.5712   0.0  20.7624    26.38   True
+nao_declarado         pardo -31.9254   0.0 -33.4098 -30.4411   True
+nao_declarado         preto -44.3669   0.0 -45.9321 -42.8017   True
+        pardo         preto -12.4415   0.0  -13.095  -11.788   True
+-------------------------------------------------------------------
+
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/cc224b0f-b664-4f0a-9d07-40ca0a93720a)
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/bda5fea6-e4e8-4782-8c67-4e5dcb5e88b3)
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/47ac8ab6-0665-47ee-be2a-584a11b271ad)
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1088f9e0-452e-44c3-beb6-4d7a439cdcf5)
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1dde8eb5-21e1-4873-b53c-6ca1c8b49be8)
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1f778b05-d471-4877-b038-4d6bc4a1b83e)
+
 
 
 ## Conclusão(ões) ou Considerações Finais
