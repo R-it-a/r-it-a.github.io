@@ -107,8 +107,6 @@ Fig 7
 
 A fugura 8 eo gráfico "Notas Médias de Matemática por Nível de Formação da Mãe (2020)" apresenta uma análise sobre a relação entre o desempenho acadêmico em matemática dos estudantes e o nível de formação educacional de suas mães. Os eixos do gráfico representam, respectivamente, os diferentes níveis de formação da mãe e as notas médias de matemática dos estudantes. As barras coloridas indicam as médias das notas para cada categoria de formação da mãe, enquanto a linha de regressão linear, destacada em laranja, mostra a tendência geral nos dados.
 
-![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1dde8eb5-21e1-4873-b53c-6ca1c8b49be8)
-Fig 8
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1f778b05-d471-4877-b038-4d6bc4a1b83e)
 Fig 9
 
@@ -116,8 +114,8 @@ Observa-se uma clara associação entre o nível de formação da mãe e as nota
 
 A linha de regressão linear reforça essa tendência, indicando uma relação positiva entre o nível de formação da mãe e as notas médias de matemática dos estudantes. O valor de R² da regressão linear, que expressa a proporção da variação nas notas explicada pelo nível de formação da mãe, sugere uma adequação satisfatória do modelo à tendência dos dados.
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/7cc972ac-6599-4dfb-8873-735aa30a9f30)
-
 Fig 10
+
 Esses resultados ressaltam a importância do papel da educação materna no desempenho acadêmico dos filhos, destacando a necessidade de estratégias voltadas para o aprimoramento do acesso e da qualidade da educação para as mães. Investimentos nessa área podem contribuir significativamente para a promoção da igualdade de oportunidades educacionais e para a melhoria do desempenho escolar das futuras gerações.
 Os gráficos evidenciam que, mesmo entre mães pretas, pardas e indígenas, um maior nível de escolaridade está associado a notas mais altas de suas filhas em matemática. Isso ressalta a importância crucial da educação materna nessas comunidades, mostrando que quando mães desses grupos étnico-raciais têm acesso à educação de qualidade, suas filhas também se beneficiam, obtendo melhores resultados acadêmicos. Portanto, investir na educação das mães pretas, pardas e indígenas não só promove a equidade e a inclusão, mas também é uma estratégia eficaz para melhorar o desempenho escolar de suas filhas e quebrar ciclos de desigualdade.
 Os gráficos destacam que as alunas que se beneficiam das políticas de cotas, especialmente aquelas provenientes de famílias pretas, pardas e indígenas, têm o potencial de transformar significativamente o futuro. Ao terem acesso à educação superior por meio dessas políticas inclusivas, essas jovens não apenas têm a oportunidade de romper com as barreiras socioeconômicas e raciais que historicamente as têm prejudicado, mas também se tornam agentes de mudança em suas comunidades. Ao conquistarem suas formações acadêmicas, elas se capacitam para contribuir de maneira significativa para a construção de uma sociedade mais justa e igualitária, promovendo a diversidade e a inclusão em todos os aspectos da vida social, econômica e política.
