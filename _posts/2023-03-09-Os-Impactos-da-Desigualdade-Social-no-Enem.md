@@ -47,7 +47,7 @@ Em resumo, este trabalho utilizou dados do Enem disponibilizados pelo INEP para 
 
 ## Resultados e Discussão 
 
-Como demonstrado na Figura 1, observa-se que as mulheres constituem aproximadamente 20% a mais dos participantes no ENEM em comparação aos homens. Contudo, as notas obtidas pelos homens superam significativamente as das mulheres. Tal discrepância não apenas reflete diferenças no acesso à educação entre gêneros, mas também evidencia um desencorajamento persistente que afeta as mulheres no que tange aos estudos nas áreas de exatas. Essa situação sublinha a necessidade de abordar tanto as barreiras estruturais quanto os estereótipos de gênero que limitam o pleno potencial acadêmico feminino, especialmente nas ciências, tecnologia, engenharia e matemática (STEM).
+Quando foi realizada uma análise inicial dos dados do Enem, observou-se conforme demonstrado na figura1, que as mulheres constituem aproximadamente 20% a mais dos participantes no ENEM em comparação aos homens. Contudo, as notas obtidas pelos homens superam significativamente as das mulheres. Tal discrepância não apenas reflete diferenças no acesso à educação entre gêneros, mas também evidencia um desencorajamento persistente que afeta as mulheres no que tange aos estudos nas áreas de exatas. Essa situação sublinha a necessidade de abordar tanto as barreiras estruturais quanto os estereótipos de gênero que limitam o pleno potencial acadêmico feminino, especialmente nas ciências, tecnologia, engenharia e matemática (STEM).
 
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/e1583114-4cbc-40cc-9fbb-3e408bf3c8e4)
 Fig.1
@@ -63,6 +63,8 @@ Consoante com estudos recentes sobre autodeclaração, observa-se que ao longo d
 Fig 3
 
 
+O teste de Tukey HSD (Diferença Honesta Significativa) demosntado abaixo é um método estatístico utilizado para realizar comparações múltiplas entre as médias de diferentes grupos, após a realização de uma ANOVA (Análise de Variância). Se a ANOVA indica que há diferenças significativas entre as médias dos grupos, o teste de Tukey HSD pode ser aplicado para determinar especificamente quais pares de grupos diferem entre si. Aqui está um resumo de como ele funciona. 
+A análise apresentada acima utiliza o teste de Tukey HSD (Diferença Honesta Significativa) para explorar diferenças estatísticas nas notas médias de matemática entre diversos grupos de identidade racial de participantes do ENEM. Este teste compara as médias de todos os pares de grupos, ajustando para múltiplas comparações e fornecendo uma medida robusta de diferenças significativas entre eles. Os resultados revelam variações substanciais nas notas médias, indicando que alguns grupos raciais, especificamente os identificados como amarelos e brancos, tendem a ter desempenhos superiores comparados a outros grupos, como os indígenas. Ao destacar essas disparidades, a análise aponta para a importância de investigar as causas subjacentes e desenvolver intervenções educacionais que promovam a equidade no acesso e na qualidade da educação matemática para todos os estudantes, independentemente de sua identidade racial.
 
   Multiple Comparison of Means - Tukey HSD, FWER=0.05        
 ===================================================================
@@ -83,36 +85,42 @@ Fig 3
 nao_declarado         pardo -31.9254   0.0 -33.4098 -30.4411   True
 nao_declarado         preto -44.3669   0.0 -45.9321 -42.8017   True
         pardo         preto -12.4415   0.0  -13.095  -11.788   True
+
 -------------------------------------------------------------------
-O teste de Tukey HSD (Diferença Honesta Significativa) é um método estatístico utilizado para realizar comparações múltiplas entre as médias de diferentes grupos, após a realização de uma ANOVA (Análise de Variância). Se a ANOVA indica que há diferenças significativas entre as médias dos grupos, o teste de Tukey HSD pode ser aplicado para determinar especificamente quais pares de grupos diferem entre si. Aqui está um resumo de como ele funciona. 
-A análise apresentada acima utiliza o teste de Tukey HSD (Diferença Honesta Significativa) para explorar diferenças estatísticas nas notas médias de matemática entre diversos grupos de identidade racial de participantes do ENEM. Este teste compara as médias de todos os pares de grupos, ajustando para múltiplas comparações e fornecendo uma medida robusta de diferenças significativas entre eles. Os resultados revelam variações substanciais nas notas médias, indicando que alguns grupos raciais, especificamente os identificados como amarelos e brancos, tendem a ter desempenhos superiores comparados a outros grupos, como os indígenas. Ao destacar essas disparidades, a análise aponta para a importância de investigar as causas subjacentes e desenvolver intervenções educacionais que promovam a equidade no acesso e na qualidade da educação matemática para todos os estudantes, independentemente de sua identidade racial.
+
+Na Figura 4, 5 e 6, a disparidade nas notas médias, organizadas por grupo racial, é notavelmente evidenciada. A análise revela que indivíduos identificados como brancos apresentam médias superiores em comparação aos demais grupos raciais. Especial atenção é direcionada à situação dos povos indígenas, cujas médias são as mais baixas dentre os grupos analisados. Este cenário sublinha a urgente necessidade de expandir o acesso à educação de qualidade em todo o território nacional, garantindo que políticas educacionais inclusivas e respeitosas sejam implementadas, com foco especial na realidade e nas demandas dos povos indígenas. Este passo é fundamental para a construção de uma sociedade mais justa e igualitária, onde as oportunidades educacionais não sejam limitadas por barreiras raciais.
+
 
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/3bdf07cb-609d-4ac7-bc3f-73aeca24d977)
 Fig4
-
-Na Figura 4 e 5, a disparidade nas notas médias, organizadas por grupo racial, é notavelmente evidenciada. A análise revela que indivíduos identificados como brancos apresentam médias superiores em comparação aos demais grupos raciais. Especial atenção é direcionada à situação dos povos indígenas, cujas médias são as mais baixas dentre os grupos analisados. Este cenário sublinha a urgente necessidade de expandir o acesso à educação de qualidade em todo o território nacional, garantindo que políticas educacionais inclusivas e respeitosas sejam implementadas, com foco especial na realidade e nas demandas dos povos indígenas. Este passo é fundamental para a construção de uma sociedade mais justa e igualitária, onde as oportunidades educacionais não sejam limitadas por barreiras raciais.
 
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/a917a8c7-5645-4669-b605-bf9faf611ea7)
 Fig5
 
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/bda5fea6-e4e8-4782-8c67-4e5dcb5e88b3)
 Fig 6
+
+Ao analisar o gráfico da Fig 7, fica evidente que as mulheres brancas têm, em média, notas mais altas em Matemática do que mulheres indígenas, pretas e pardas. Isso sugere que as mulheres brancas apresentam um desempenho acadêmico superior nessa disciplina em comparação com mulheres desses grupos étnicos. Além disso, é importante ressaltar que ser mulher dentro desses grupos amplifica as disparidades educacionais existentes. As mulheres enfrentam desafios específicos relacionados ao acesso à educação, discriminação de gênero, expectativas sociais e oportunidades limitadas de desenvolvimento acadêmico e profissional. Essas disparidades de gênero, combinadas com as raciais, aprofundam ainda mais as desigualdades no desempenho acadêmico. Portanto, compreender a interseccionalidade de gênero e cor de pele é crucial para entender as complexas dinâmicas que afetam o acesso à educação e o desempenho acadêmico das mulheres pertencentes a grupos étnicos minoritários. Isso destaca a urgência de políticas educacionais inclusivas que abordem essas desigualdades interseccionais, promovendo equidade e oportunidades iguais para todas as mulheres, independentemente de sua origem étnica.
+
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/c7f1543a-9522-46f4-99d7-aa9bfbe4d615)
 Fig 7
-Ao analisar o gráfico da Fig 7, fica evidente que as mulheres brancas têm, em média, notas mais altas em Matemática do que mulheres indígenas, pretas e pardas. Isso sugere que as mulheres brancas apresentam um desempenho acadêmico superior nessa disciplina em comparação com mulheres desses grupos étnicos. Além disso, é importante ressaltar que ser mulher dentro desses grupos amplifica as disparidades educacionais existentes. As mulheres enfrentam desafios específicos relacionados ao acesso à educação, discriminação de gênero, expectativas sociais e oportunidades limitadas de desenvolvimento acadêmico e profissional. Essas disparidades de gênero, combinadas com as raciais, aprofundam ainda mais as desigualdades no desempenho acadêmico. Portanto, compreender a interseccionalidade de gênero e cor de pele é crucial para entender as complexas dinâmicas que afetam o acesso à educação e o desempenho acadêmico das mulheres pertencentes a grupos étnicos minoritários. Isso destaca a urgência de políticas educacionais inclusivas que abordem essas desigualdades interseccionais, promovendo equidade e oportunidades iguais para todas as mulheres, independentemente de sua origem étnica.
+
+A fugura 8 eo gráfico "Notas Médias de Matemática por Nível de Formação da Mãe (2020)" apresenta uma análise sobre a relação entre o desempenho acadêmico em matemática dos estudantes e o nível de formação educacional de suas mães. Os eixos do gráfico representam, respectivamente, os diferentes níveis de formação da mãe e as notas médias de matemática dos estudantes. As barras coloridas indicam as médias das notas para cada categoria de formação da mãe, enquanto a linha de regressão linear, destacada em laranja, mostra a tendência geral nos dados.
 
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1dde8eb5-21e1-4873-b53c-6ca1c8b49be8)
 Fig 8
 ![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/1f778b05-d471-4877-b038-4d6bc4a1b83e)
 Fig 9
-O gráfico "Notas Médias de Matemática por Nível de Formação da Mãe (2020)" apresenta uma análise sobre a relação entre o desempenho acadêmico em matemática dos estudantes e o nível de formação educacional de suas mães. Os eixos do gráfico representam, respectivamente, os diferentes níveis de formação da mãe e as notas médias de matemática dos estudantes. As barras coloridas indicam as médias das notas para cada categoria de formação da mãe, enquanto a linha de regressão linear, destacada em laranja, mostra a tendência geral nos dados.
 
 Observa-se uma clara associação entre o nível de formação da mãe e as notas médias de matemática dos estudantes. Quanto mais elevado o nível educacional da mãe, maior tende a ser o desempenho acadêmico de seus filhos em matemática. Os estudantes cujas mães concluíram a faculdade ou a pós-graduação apresentam notas médias mais altas em matemática em comparação com aqueles cujas mães possuem um nível de formação mais baixo, como nunca ter estudado ou não completar a 4ª série.
 
 A linha de regressão linear reforça essa tendência, indicando uma relação positiva entre o nível de formação da mãe e as notas médias de matemática dos estudantes. O valor de R² da regressão linear, que expressa a proporção da variação nas notas explicada pelo nível de formação da mãe, sugere uma adequação satisfatória do modelo à tendência dos dados.
+![image](https://github.com/R-it-a/r-it-a.github.io/assets/75498905/7cc972ac-6599-4dfb-8873-735aa30a9f30)
 
+Fig 10
 Esses resultados ressaltam a importância do papel da educação materna no desempenho acadêmico dos filhos, destacando a necessidade de estratégias voltadas para o aprimoramento do acesso e da qualidade da educação para as mães. Investimentos nessa área podem contribuir significativamente para a promoção da igualdade de oportunidades educacionais e para a melhoria do desempenho escolar das futuras gerações.
-
+Os gráficos evidenciam que, mesmo entre mães pretas, pardas e indígenas, um maior nível de escolaridade está associado a notas mais altas de suas filhas em matemática. Isso ressalta a importância crucial da educação materna nessas comunidades, mostrando que quando mães desses grupos étnico-raciais têm acesso à educação de qualidade, suas filhas também se beneficiam, obtendo melhores resultados acadêmicos. Portanto, investir na educação das mães pretas, pardas e indígenas não só promove a equidade e a inclusão, mas também é uma estratégia eficaz para melhorar o desempenho escolar de suas filhas e quebrar ciclos de desigualdade.
+Os gráficos destacam que as alunas que se beneficiam das políticas de cotas, especialmente aquelas provenientes de famílias pretas, pardas e indígenas, têm o potencial de transformar significativamente o futuro. Ao terem acesso à educação superior por meio dessas políticas inclusivas, essas jovens não apenas têm a oportunidade de romper com as barreiras socioeconômicas e raciais que historicamente as têm prejudicado, mas também se tornam agentes de mudança em suas comunidades. Ao conquistarem suas formações acadêmicas, elas se capacitam para contribuir de maneira significativa para a construção de uma sociedade mais justa e igualitária, promovendo a diversidade e a inclusão em todos os aspectos da vida social, econômica e política.
 
 ## Conclusão(ões) ou Considerações Finais
 
